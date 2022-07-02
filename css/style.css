@@ -25,10 +25,9 @@ body {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 10px;
   text-decoration: none;
   font-size: 17px;
-
 }
 
 .topnav a:hover {
@@ -83,6 +82,7 @@ body {
   width: 150px;
   line-height: 60px;
   text-decoration: none;
+  margin-bottom: 30px;
 }
 
 #index_html li a {
@@ -114,6 +114,7 @@ body {
   text-align: center;
   background-color: #333;
   margin-right: 30px;
+  margin-bottom: 20px;
   width: 150px;
   line-height: 60px;
   text-decoration: none;
@@ -129,4 +130,31 @@ body {
   text-decoration: none;
   color: black;
   background-color: #ddd;
+}
+
+.codewrap {
+  border: 1px solid black;
+  width: fit-content;
+  min-width: 33%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.edalink {
+  margin-top: 5px;
+  border: 2px solid black;
+  padding: 7px;
+  font-size: small;
+  width: fit-content;
+  background: #101040;
+}
+
+.edalink a {
+  text-decoration: none;
+  color: white;
+}
+
+.edalink a:hover {
+  color: #bbb;
 }
